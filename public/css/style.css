@@ -1,0 +1,79 @@
+/* Mengaktifkan perilaku halus (smooth) pada pengguliran (scroll) halaman HTML */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Mengatur margin dan padding tubuh halaman ke nilai nol serta menghilangkan overflow horizontal */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Pengaturan gaya tampilan banner */
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(../img/banner.jpg);
+    background-size: cover;
+    padding: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+/* Pengaturan tata letak halaman "about" */
+.about{
+    padding: 150px;
+}
+
+/* Penyesuaian margin tombol */
+.btn{
+    margin-top: 20px;
+}
+
+/* Pengaturan gaya tautan logo */
+.logo{
+    text-decoration: none;
+    color : white;
+    font-size: 30px;
+}
+
+/* Gaya tampilan saat tautan dihover pada kontainer */
+.container a:hover{
+    color: white;
+}
+
+/* Gaya tampilan saat tautan navbar dihover */
+.nav-link:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Pengaturan warna teks tautan navbar */
+.nav-link{
+    color: white !important;
+} 
+
+/* Gaya tampilan carousel */
+.carousel-inner{
+    width: 500px;
+    border-radius: 20px;
+}
+
+/* Penyesuaian tampilan gambar dalam carousel */
+.carousel-inner img{    
+    width: 500px;
+    border-radius: 20px;
+}
+
+/* Penyesuaian tinggi layanan */
+.service{
+    height: auto;
+}
+
+/* Pengaturan tampilan footer */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
